@@ -1,0 +1,15 @@
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\bin\Debug\net6.0\AssessmentCapsuleHotel.exe
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\bin\Debug\net6.0\AssessmentCapsuleHotel.deps.json
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\bin\Debug\net6.0\AssessmentCapsuleHotel.runtimeconfig.json
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\bin\Debug\net6.0\AssessmentCapsuleHotel.dll
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\bin\Debug\net6.0\AssessmentCapsuleHotel.pdb
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.csproj.AssemblyReference.cache
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.AssemblyInfoInputs.cache
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.AssemblyInfo.cs
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.dll
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\refint\AssessmentCapsuleHotel.dll
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.pdb
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\AssessmentCapsuleHotel.genruntimeconfig.cache
+C:\Users\Aaron\Code\AssessmentCapsuleHotel\AssessmentCapsuleHotel\obj\Debug\net6.0\ref\AssessmentCapsuleHotel.dll
