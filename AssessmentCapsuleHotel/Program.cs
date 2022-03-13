@@ -6,6 +6,19 @@ string[] rooms = new string[RoomsTotal];
 Console.Write(@$"
 There are {RoomsTotal} unoccupied rooms ready to be booked.");
 
+int GuestSelection = GuestMenuSelection(@"
+
+Guest Menu
+==========
+1. Check In
+2. Check Out
+3. View Guests
+4. Exit
+Choose on option [1-4]: ");
+
+
+
+
 static int GuestMenuSelection(string prompt)
 {
     int GuestMenuChoice = 0;
@@ -15,19 +28,13 @@ static int GuestMenuSelection(string prompt)
 
     do
     {
-        Console.Write(@"
-Guest Menu
-==========
-1. Check In
-2. Check Out
-3. View Guests
-4. Exit
-Choose on option [1-4]: ");
+        Console.Write(prompt);
         GuestMenuChoice = PositiveNumValidation("");
         if (GuestMenuChoice > 4)
         {
-            Console.Write(@"That Entry is invalid.
-Please Enter a choice between 1-4: ");
+            validChoice = false;
+            Console.Write(@"
+That Entry is invalid.");
 
         }
         else if (GuestMenuChoice == 1)
@@ -47,15 +54,55 @@ Please Enter a choice between 1-4: ");
         }
         else
         {
-            //Open Exit Method
+            validChoice = true;
+            Exit("");
+            Console.ReadLine();
             break;
         }
     } while (!validChoice);
     return GuestMenuChoice;
 }
 
-int GuestSelection = GuestMenuSelection("");
-Console.WriteLine($"Your choice was: {GuestSelection}");
+
+
+static string Exit(string prompt)
+{
+    Console.Write(@"
+Exit
+====
+Are you sure you want to exit?
+All data will be lost.
+Exit [y/n]: ");
+    
+    string exitEntry = Console.ReadLine().ToLower();
+
+    {
+        if (exitEntry == "n")
+        {
+            GuestMenuSelection(@"
+Guest Menu
+==========
+1. Check In
+2. Check Out
+3. View Guests
+4. Exit
+Choose on option [1-4]: ");
+        }
+        else if (exitEntry == "y")
+        {
+            Console.Write("\nGoodbye!");
+        }
+        else
+        {
+            Console.Write(@"
+Invalid Entry!
+Are you sure you want to exit: [y/n]: ");
+        }
+
+    } 
+    return exitEntry;
+}
+
 
 
 static int PositiveNumValidation(string prompt)
@@ -70,6 +117,7 @@ static int PositiveNumValidation(string prompt)
 
     do
     {
+        Console.Write(prompt);
         if (int.TryParse(input, out result))
         {
             if (result > 0)
